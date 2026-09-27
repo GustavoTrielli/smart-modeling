@@ -16,6 +16,7 @@ _Avoid_: Sizing, scaling
 
 **Base size**:
 The size a pattern is first drafted in, before grading (Portuguese: tamanho base).
+_Avoid_: Sample size (the pattern-file standard's name for it, which clashes with **Sample**)
 
 **Size chart**:
 The body measurements for every size in a size range, which grading works from (Portuguese: tabela de medidas).
