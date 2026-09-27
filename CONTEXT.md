@@ -72,6 +72,14 @@ _Avoid_: Pattern parameters, design parameters
 A saved state of a design; any version can be reopened or exported.
 _Avoid_: Revision, snapshot
 
+**Detail**:
+A design feature of a garment within its family, such as a neckline, sleeve, collar, closure, pocket or pleat. A shape detail only changes the outline of existing pieces; a construction detail adds pieces, markings or sewing steps.
+_Avoid_: Feature, option
+
+**Finish**:
+How a raw edge such as a neckline, armhole, hem or waist is completed: a facing, binding, band or hem (Portuguese: acabamento).
+_Avoid_: Edge treatment
+
 **Garment family**:
 A category of garments drafted with its own pattern logic, such as tops, skirts, pants or dresses.
 _Avoid_: Category, garment type
