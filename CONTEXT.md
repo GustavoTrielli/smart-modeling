@@ -56,6 +56,22 @@ Fabric made of interlocking loops that stretches, such as t-shirt jersey; its pa
 
 ### Design
 
+**Design**:
+One garment the owner creates and keeps in the library, together with its brief, design spec and versions; a dress counts as one garment.
+_Avoid_: Project, model, outfit
+
+**Brief**:
+The owner's own description of an intended garment: words in Portuguese or English, plus optional reference images.
+_Avoid_: Prompt, description
+
+**Design spec**:
+The structured set of choices and measurements a pattern is drafted from; the tool fills it from the brief, and chat and controls edit it.
+_Avoid_: Pattern parameters, design parameters
+
+**Version**:
+A saved state of a design; any version can be reopened or exported.
+_Avoid_: Revision, snapshot
+
 **Garment family**:
 A category of garments drafted with its own pattern logic, such as tops, skirts, pants or dresses.
 _Avoid_: Category, garment type
