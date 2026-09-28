@@ -1,0 +1,348 @@
+# Test set: briefs for comparing AI models and routes
+#
+# Each case is a brief as the owner would type it into the tool ("words"),
+# plus what the owner meant ("meant"): the answer a model's design spec is
+# scored against. "meant" is plain words for now; it becomes design spec
+# fields once "Define the design spec the language model fills" is settled.
+#
+# "(assumed)" marks what the brief leaves open: the tool should guess it and
+# list it as an assumption. "Swapped" marks a detail v1 doesn't support: the
+# tool uses the closest supported one and lists the swap. Garments v1 doesn't
+# make at all expect a plain "not in v1" and no draft.
+#
+# Images are NOT in this public repo. They live in the owner's private Google
+# Drive folder "smart-modeling test-set images", under the file name given
+# here, and are downloaded when a test runs.
+#
+# Source: "Collect a test set of real garment descriptions"
+# https://github.com/GustavoTrielli/smart-modeling/issues/18
+
+- id: 1
+  source: draft
+  language: PT
+  family: Top
+  fabric: Knit
+  covers: "Collection: t-shirt"
+  image: null
+  words: "Camiseta básica de malha, gola redonda, manga curta, reta, no comprimento do quadril."
+  meant: "Top, knit. Round neck. Straight set-in short sleeves. Regular fit. Hip length."
+
+- id: 2
+  source: draft
+  language: PT
+  family: Top
+  fabric: Knit
+  covers: "Collection: tank top"
+  image: null
+  words: "Regata de malha, alça larga, decote redondo mais cavado, bem justinha no corpo."
+  meant: "Top, knit. Sleeveless with wide shoulders. Scoop neck. Fitted (not skin-tight). Hip length (assumed)."
+
+- id: 3
+  source: draft
+  language: EN
+  family: Top
+  fabric: Woven
+  covers: "Collection: button-up shirt"
+  image: "03-shirt.jpg"  # A classic white shirt
+  words: "Classic white button-up shirt like the photo: collar on a stand, long sleeves with buttoned cuffs, a bit loose, covering the hips."
+  meant: "Top, woven. Shirt collar on a stand, button front. Long set-in sleeves, buttoned cuffs with a sleeve placket. Loose. Hip length."
+
+- id: 4
+  source: draft
+  language: PT
+  family: Skirt
+  fabric: Woven
+  covers: "Collection: pencil skirt"
+  image: null
+  words: "Saia lápis preta na altura do joelho, cintura alta, zíper invisível atrás e fenda atrás."
+  meant: "Skirt, woven. Pencil. Knee length. High waist, straight waistband (assumed). Darts. Invisible zip at the back. Back slit."
+
+- id: 5
+  source: draft
+  language: PT
+  family: Skirt
+  fabric: Woven
+  covers: "Collection: A-line skirt"
+  image: null
+  words: "Saia evasê midi de linho, com bolso faca e cós reto."
+  meant: "Skirt, woven. A-line. Midi. Straight waistband. Slanted front pockets. Invisible zip at the side (assumed)."
+
+- id: 6
+  source: draft
+  language: EN
+  family: Skirt
+  fabric: Knit
+  covers: "Collection: circle skirt, knit"
+  image: null
+  words: "Short circle skirt in jersey, just an elastic waist so it pulls on."
+  meant: "Skirt, knit. Circle. Mini. Elastic waistband, pull-on."
+
+- id: 7
+  source: draft
+  language: PT
+  family: Skirt
+  fabric: Woven
+  covers: "Collection: tiered skirt"
+  image: "07-tiered-skirt.jpg"  # A long boho tiered skirt
+  words: "Saia longa de três camadas franzidas, estilo boho, com elástico na cintura. Tipo a da foto."
+  meant: "Skirt, woven. Three gathered tiers. Maxi (ankle). Elastic waistband."
+
+- id: 8
+  source: draft
+  language: PT
+  family: Pants
+  fabric: Woven
+  covers: "Collection: tailored pants"
+  image: null
+  words: "Calça de alfaiataria de cintura alta, perna reta, uma prega de cada lado na frente, bolso faca e passantes. Fecha com zíper e botão."
+  meant: "Pants, woven. Straight leg, full length. High rise. One folded pleat on each front. Slanted front pockets. Straight waistband with belt loops. Zip fly with a waistband button. (\"Alfaiataria\" means tailored pants here, not a tailored jacket.)"
+
+- id: 9
+  source: draft
+  language: EN
+  family: Pants
+  fabric: Woven
+  covers: "Collection: wide-leg pants"
+  image: null
+  words: "Wide-leg trousers, high rise, long enough to graze the floor, side-seam pockets and an invisible zip on the side."
+  meant: "Pants, woven. Wide leg, full length to the floor. High rise. Side-seam pockets. Invisible zip at the side. Straight waistband (assumed)."
+
+- id: 10
+  source: draft
+  language: PT
+  family: Dress
+  fabric: Woven
+  covers: "Collection: midi dress with a waist seam"
+  image: "10-midi-dress.jpg"  # A midi dress with a waist seam
+  words: "Vestido midi com recorte na cintura, corpo ajustado com pences, saia meio godê, decote quadrado e manga curta. Zíper invisível nas costas."
+  meant: "Dress, woven, with a waist seam. Bodice fitted with darts, square neck, short set-in sleeves. Half-circle skirt, midi. Invisible zip at the back."
+
+- id: 11
+  source: draft
+  language: PT
+  family: Dress
+  fabric: Woven
+  covers: "Collection: shirt dress"
+  image: null
+  words: "Chemise midi de viscose, manga 3/4 com punho, abotoada até embaixo e com faixa pra amarrar na cintura."
+  meant: "Dress, woven, one-piece shirt dress. Shirt collar on a stand (assumed). Button front all the way down. 3/4 set-in sleeves with buttoned cuffs. Fabric belt. Midi. Regular fit."
+
+- id: 12
+  source: draft
+  language: PT
+  family: Dress
+  fabric: Knit
+  covers: "Knit pull-on: t-shirt dress"
+  image: null
+  words: "Vestido camisetão de malha, bem soltinho, manga curta, até o meio da coxa."
+  meant: "Dress, knit, one-piece, t-shirt based. Round neck (assumed). Short set-in sleeves. Oversized. Mid-thigh."
+
+- id: 13
+  source: draft
+  language: PT
+  family: Pants
+  fabric: Knit
+  covers: "Knit pull-on: shorts"
+  image: null
+  words: "Shortinho de malha com elástico na cintura, pra ficar em casa."
+  meant: "Pants, knit, pull-on. Shorts length. Elastic waistband. Mid rise (assumed). Loose (assumed)."
+
+- id: 14
+  source: draft
+  language: PT
+  family: Skirt
+  fabric: Knit
+  covers: "Knit pull-on: straight skirt"
+  image: null
+  words: "Saia midi reta de malha, só com elástico na cintura."
+  meant: "Skirt, knit, pull-on. Straight. Midi. Elastic waistband. No zip, no darts."
+
+- id: 15
+  source: draft
+  language: PT
+  family: Top
+  fabric: Knit
+  covers: "Crop length, mock neck"
+  image: null
+  words: "Cropped de malha com gola alta, manga longa, bem ajustado."
+  meant: "Top, knit. Crop length. Mock neck (if you meant a folded turtleneck, that is a later detail and becomes a mock neck). Long set-in sleeves. Fitted."
+
+- id: 16
+  source: draft
+  language: EN
+  family: Top
+  fabric: Woven
+  covers: "Tunic, boat neck, drop shoulder"
+  image: "16-linen-tunic.jpg"  # A loose linen tunic
+  words: "Loose linen tunic with a boat neck and dropped shoulders, sleeves to the elbow, falling to mid-thigh."
+  meant: "Top, woven, tunic length (mid-thigh). Boat neck. Drop-shoulder sleeves cut in one with the body, elbow length. Loose. Pulls over, no closure."
+
+- id: 17
+  source: draft
+  language: PT
+  family: Top
+  fabric: Knit
+  covers: "Raglan sleeves, oversized"
+  image: null
+  words: "Moletom oversized com manga raglan, sem capuz."
+  meant: "Top, knit (sweatshirt fleece). Round neck (assumed). Long raglan sleeves. Oversized. Hip length (assumed)."
+
+- id: 18
+  source: draft
+  language: PT
+  family: Pants
+  fabric: Woven
+  covers: "Bermuda length, mid rise"
+  image: null
+  words: "Bermuda de sarja, cintura média, perna reta até um pouco acima do joelho, bolsos faca e passantes."
+  meant: "Pants, woven. Bermuda length (just above the knee). Straight leg. Mid rise. Slanted front pockets. Straight waistband with belt loops. Zip fly with a button (assumed)."
+
+- id: 19
+  source: draft
+  language: EN
+  family: Pants
+  fabric: Woven
+  covers: "Flare; words override the image"
+  image: "19-flare-jeans.jpg"  # Low-rise flare jeans
+  words: "Flare jeans like the photo, but high rise instead of low. Fitted through the hip and thigh."
+  meant: "Pants, woven (denim). Flare from the knee, full length. High rise (the words win over the photo). Fitted. Zip fly with a button and belt loops (from the photo)."
+
+- id: 20
+  source: draft
+  language: PT
+  family: Top
+  fabric: Woven
+  covers: "Bell sleeves, V-neck"
+  image: null
+  words: "Blusa de crepe soltinha, decote V e manga sino, pra usar por dentro da saia."
+  meant: "Top, woven. V-neck. Bell sleeves, long (assumed). Loose. Long enough to tuck in."
+
+- id: 21
+  source: draft
+  language: EN
+  family: Dress
+  fabric: Knit
+  covers: "Flutter sleeves, knit dress"
+  image: null
+  words: "Knee-length jersey dress with flutter sleeves and a V-neck, fitted but not tight, pulls on."
+  meant: "Dress, knit, one-piece. V-neck. Flutter sleeves. Fitted. Knee length. Pull-on."
+
+- id: 22
+  source: draft
+  language: PT
+  family: Dress
+  fabric: Woven
+  covers: "Kimono sleeves, one-piece dress"
+  image: null
+  words: "Vestidinho de verão curto, soltinho, com manga kimono."
+  meant: "Dress, woven (assumed), one-piece. Round neck (assumed). Kimono sleeves cut in one with the body. Loose. Above the knee."
+
+- id: 23
+  source: draft
+  language: PT
+  family: Top
+  fabric: Woven
+  covers: "Swap: puff sleeves, sweetheart neck"
+  image: "23-puff-sleeve-blouse.jpg"  # A blouse with puff sleeves and a sweetheart neckline
+  words: "Blusa com manga bufante e decote coração, igual à da foto."
+  meant: "Top, woven. Swapped: puff sleeves become short set-in sleeves; sweetheart neck becomes a square neck. Each swap listed as an undoable assumption."
+
+- id: 24
+  source: draft
+  language: EN
+  family: Skirt
+  fabric: Woven
+  covers: "Swap: wrap skirt"
+  image: null
+  words: "Midi wrap skirt that ties at the side."
+  meant: "Skirt, woven, midi. Swapped: wrap skirt becomes an A-line skirt with a side zip; the tie is dropped. Listed as an assumption."
+
+- id: 25
+  source: draft
+  language: PT
+  family: Pants
+  fabric: Knit
+  covers: "Swap: skin-tight leggings"
+  image: null
+  words: "Legging de suplex bem colada, cintura alta."
+  meant: "Pants, knit, pull-on, full length. High rise. Elastic waistband. Swapped: skin-tight becomes fitted, slim leg."
+
+- id: 26
+  source: draft
+  language: EN
+  family: Top
+  fabric: Woven
+  covers: "Swap: Peter Pan collar, patch pockets"
+  image: null
+  words: "Short-sleeve blouse with a Peter Pan collar and two patch pockets on the chest."
+  meant: "Top, woven. Button front (assumed). Short set-in sleeves. Swapped: Peter Pan collar becomes a shirt collar on a stand; patch pockets are dropped."
+
+- id: 27
+  source: draft
+  language: PT
+  family: Dress
+  fabric: Woven
+  covers: "Hard: image only"
+  image: "27-image-only-dress.jpg"  # A dress you like (you pick it)
+  words: "Quero essa."
+  meant: "Whatever the photo shows, read into supported details; everything else listed as assumptions. You fill this line once you pick the image."
+
+- id: 28
+  source: draft
+  language: PT
+  family: Dress
+  fabric: Woven
+  covers: "Hard: vague"
+  image: null
+  words: "Um vestido fresquinho pra casamento de dia."
+  meant: "Dress, woven. Everything else is a guess, each listed as an assumption (for example midi, waist seam, flutter sleeves, light fabric)."
+
+- id: 29
+  source: draft
+  language: EN
+  family: Skirt
+  fabric: Knit
+  covers: "Hard: contradicts itself"
+  image: null
+  words: "Stretchy jersey pencil skirt with darts and an invisible zip at the back."
+  meant: "Skirt, knit, pencil, pull-on. Darts and zip dropped (knit pulls on), replaced by an elastic waistband; each change listed."
+
+- id: 30
+  source: draft
+  language: PT
+  family: Jumpsuit
+  fabric: Woven
+  covers: "Out of v1: jumpsuit (see Question 6)"
+  image: null
+  words: "Macacão pantacourt de linho, sem manga."
+  meant: "Not made in v1. Expected result depends on Question 6."
+
+- id: 31
+  source: owner
+  language: PT
+  family: Dress
+  fabric: Woven
+  covers: "Owner's brief: dress with a waist seam; back shirring is later"
+  image: null
+  words: "Vestido decode quadrado, acinturado, godê, manga curta, lastex citura costas, barra larga na manga e na barra."
+  meant: "Dress, woven (assumed), with a waist seam: fitted bodice, circle skirt, midi (assumed). Square neck. Short set-in sleeves. Swapped: lastex shirring at the back waist becomes darts plus an invisible back zip. Barra larga means a deep folded hem on the sleeves and skirt; hem depth follows the pattern maker's standard, so the tool notes it but has no control for it. Typos kept as typed."
+
+- id: 32
+  source: owner
+  language: PT
+  family: Romper
+  fabric: Woven
+  covers: "Owner's brief: out of v1 (romper with a lining)"
+  image: null
+  words: "Macaquinho decote V, manga 7/8 fluida em chifon, short apenas no forro, saia em duas camadas."
+  meant: "Not made in v1: a romper that looks like a dress (two-layer skirt outside, shorts only in the lining). The tool says v1 doesn't make rompers and drafts nothing."
+
+- id: 33
+  source: owner
+  language: PT
+  family: Skirt
+  fabric: Woven
+  covers: "Owner's brief: high-low hem; back-only elastic is later"
+  image: null
+  words: "Saia godê assimetrica, cós largo com elástico nas costas, mais cumprida na frente e curta nas laterais."
+  meant: "Skirt, woven (assumed). Circle. High-low hem: longest at the front (midi, assumed), shorter at the sides and back. Wide waistband. Swapped: elastic only at the back becomes a full elastic waistband. Typos kept as typed."
