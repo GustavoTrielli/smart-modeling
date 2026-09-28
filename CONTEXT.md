@@ -46,6 +46,14 @@ A professional who drafts and grades patterns (Portuguese: modelista).
 A garment cut and sewn from a pattern file to check fit and construction before production (Portuguese: peça piloto).
 _Avoid_: Prototype, toile
 
+**Fit model**:
+A person whose body matches one size of the size chart, who tries samples on at a fitting (Portuguese: modelo de prova).
+_Avoid_: Mannequin (a dress form, which is not a person)
+
+**Automated check**:
+A test the tool runs on a pattern file at export. A hard error makes the pattern unsewable and blocks the export; a warning flags a quality issue and lets it through.
+_Avoid_: Validation, lint
+
 ### Fabric
 
 **Woven**:
@@ -75,6 +83,10 @@ _Avoid_: Revision, snapshot
 **Detail**:
 A design feature of a garment within its family, such as a neckline, sleeve, collar, closure, pocket or pleat. A shape detail only changes the outline of existing pieces; a construction detail adds pieces, markings or sewing steps.
 _Avoid_: Feature, option
+
+**Proven**:
+The status of a detail, in a fabric and size range, once the pattern maker has reviewed it and, for a construction detail, a sample has passed; a design is production-ready when all its details are proven and its file passes the automated checks. A later change to a proven piece's shape removes the status until it is reviewed again.
+_Avoid_: Certified, approved
 
 **Finish**:
 How a raw edge such as a neckline, armhole, hem or waist is completed: a facing, binding, band or hem (Portuguese: acabamento).
