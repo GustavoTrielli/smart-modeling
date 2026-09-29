@@ -38,14 +38,14 @@
   meant: "Top, knit. Sleeveless with wide shoulders. Scoop neck. Fitted (not skin-tight). Hip length (assumed)."
 
 - id: 3
-  source: draft
-  language: EN
+  source: owner
+  language: PT
   family: Top
-  fabric: Woven
-  covers: "Collection: button-up shirt"
-  image: "03-shirt.jpg"  # A classic white shirt
-  words: "Classic white button-up shirt like the photo: collar on a stand, long sleeves with buttoned cuffs, a bit loose, covering the hips."
-  meant: "Top, woven. Shirt collar on a stand, button front. Long set-in sleeves, buttoned cuffs with a sleeve placket. Loose. Hip length."
+  fabric: Knit
+  covers: "Owner's brief: knit t-shirt, lurex"
+  image: "03-lurex-tee.jpg"  # A fitted lurex jersey t-shirt
+  words: "Camiseta de malha com lurex, gola redonda, manga curta, barra simples, caimento justo."
+  meant: "Top, knit (jersey with lurex; a fabric choice, same pattern as plain jersey). Round neck. Short set-in sleeves. Fitted. Plain folded hem. Hip length (assumed)."
 
 - id: 4
   source: draft
@@ -78,14 +78,14 @@
   meant: "Skirt, knit. Circle. Mini. Elastic waistband, pull-on."
 
 - id: 7
-  source: draft
+  source: owner
   language: PT
   family: Skirt
   fabric: Woven
-  covers: "Collection: tiered skirt"
-  image: "07-tiered-skirt.jpg"  # A long boho tiered skirt
-  words: "Saia longa de três camadas franzidas, estilo boho, com elástico na cintura. Tipo a da foto."
-  meant: "Skirt, woven. Three gathered tiers. Maxi (ankle). Elastic waistband."
+  covers: "Owner's brief: skirt with fly and pockets; cargo pockets and side panels are later"
+  image: "07-cargo-maxi-skirt.jpg"  # A long cargo skirt
+  words: "Saia longa, bolso cargo nas laterais, elástico embutido no cós, braguilha centro frente, bolso faca nas laterais, recorte nas laterais, pesponto duplo."
+  meant: "Skirt, woven (twill or denim, assumed). Straight (assumed). Maxi. Waistband with elastic enclosed all the way round (assumed), plus a centre-front zip fly with a button. Slanted front pockets. Swapped: cargo pockets dropped (patch pockets are later); side panel seams dropped (not in v1). Double topstitching is a sewing note, not in the pattern file."
 
 - id: 8
   source: draft
@@ -108,14 +108,14 @@
   meant: "Pants, woven. Wide leg, full length to the floor. High rise. Side-seam pockets. Invisible zip at the side. Straight waistband (assumed)."
 
 - id: 10
-  source: draft
+  source: owner
   language: PT
   family: Dress
   fabric: Woven
-  covers: "Collection: midi dress with a waist seam"
-  image: "10-midi-dress.jpg"  # A midi dress with a waist seam
-  words: "Vestido midi com recorte na cintura, corpo ajustado com pences, saia meio godê, decote quadrado e manga curta. Zíper invisível nas costas."
-  meant: "Dress, woven, with a waist seam. Bodice fitted with darts, square neck, short set-in sleeves. Half-circle skirt, midi. Invisible zip at the back."
+  covers: "Owner's brief: sleeveless shirt dress with a waist seam; Italian collar is later"
+  image: "10-sleeveless-shirt-dress.jpg"  # A sleeveless midi shirt dress with an Italian collar
+  words: "Chemise midi com recorte na cintura, pense da cintura em direção ao busto, regata, gola italiana."
+  meant: "Dress, woven, shirt dress with a waist seam. Midi. Button front all the way down (assumed). Waist darts pointing up to the bust. Sleeveless. Swapped: Italian collar becomes a shirt collar on a stand."
 
 - id: 11
   source: draft
@@ -168,14 +168,14 @@
   meant: "Top, knit. Crop length. Mock neck (if you meant a folded turtleneck, that is a later detail and becomes a mock neck). Long set-in sleeves. Fitted."
 
 - id: 16
-  source: draft
-  language: EN
-  family: Top
+  source: owner
+  language: PT
+  family: Dress
   fabric: Woven
-  covers: "Tunic, boat neck, drop shoulder"
-  image: "16-linen-tunic.jpg"  # A loose linen tunic
-  words: "Loose linen tunic with a boat neck and dropped shoulders, sleeves to the elbow, falling to mid-thigh."
-  meant: "Top, woven, tunic length (mid-thigh). Boat neck. Drop-shoulder sleeves cut in one with the body, elbow length. Loose. Pulls over, no closure."
+  covers: "Owner's brief: asymmetric sleeves and side slit, both out of v1"
+  image: "16-asymmetric-maxi-dress.jpg"  # A straight maxi dress with one flounced tied sleeve
+  words: "Vestido longo, shape reto, decote v, fenda unilateral, manga direita ciganinha com nó, e manga esquerda curta."
+  meant: "Dress, woven (assumed), one-piece. Straight. Maxi. V-neck. Swapped: the one-side slit becomes a back slit; the asymmetric sleeves (right a flounced peasant sleeve tied with a knot, left short) become two short set-in sleeves, since v1 drafts both sides the same."
 
 - id: 17
   source: draft
@@ -198,14 +198,14 @@
   meant: "Pants, woven. Bermuda length (just above the knee). Straight leg. Mid rise. Slanted front pockets. Straight waistband with belt loops. Zip fly with a button (assumed)."
 
 - id: 19
-  source: draft
-  language: EN
+  source: owner
+  language: PT
   family: Pants
   fabric: Woven
-  covers: "Flare; words override the image"
-  image: "19-flare-jeans.jpg"  # Low-rise flare jeans
-  words: "Flare jeans like the photo, but high rise instead of low. Fitted through the hip and thigh."
-  meant: "Pants, woven (denim). Flare from the knee, full length. High rise (the words win over the photo). Fitted. Zip fly with a button and belt loops (from the photo)."
+  covers: "Owner's brief: tailored straight pants"
+  image: "19-tailored-straight-pants.jpg"  # High-rise straight tailored pants
+  words: "calça de alfaiataria boca reta, bolso faca nas laterais, braguilha, cós alto."
+  meant: "Pants, woven, tailored. Straight leg, full length (assumed). High rise, straight waistband. Slanted front pockets. Zip fly with a waistband button. No pleats or belt loops (assumed)."
 
 - id: 20
   source: draft
@@ -238,14 +238,14 @@
   meant: "Dress, woven (assumed), one-piece. Round neck (assumed). Kimono sleeves cut in one with the body. Loose. Above the knee."
 
 - id: 23
-  source: draft
+  source: owner
   language: PT
   family: Top
   fabric: Woven
-  covers: "Swap: puff sleeves, sweetheart neck"
-  image: "23-puff-sleeve-blouse.jpg"  # A blouse with puff sleeves and a sweetheart neckline
-  words: "Blusa com manga bufante e decote coração, igual à da foto."
-  meant: "Top, woven. Swapped: puff sleeves become short set-in sleeves; sweetheart neck becomes a square neck. Each swap listed as an undoable assumption."
+  covers: "Owner's brief: chiffon top; gathered high neck is out of v1"
+  image: "23-chiffon-high-neck-top.jpg"  # A sleeveless chiffon top with a gathered high neck
+  words: "Blusa regata, gola alta com franzido, barra assimétrica em chifon."
+  meant: "Top, woven (chiffon). Sleeveless. Loose (assumed). Swapped: the gathered high neck becomes a plain mock neck. Swapped: the asymmetric hem becomes an even hem, since the high-low hem is agreed for skirts only."
 
 - id: 24
   source: draft
