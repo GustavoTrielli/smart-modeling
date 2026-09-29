@@ -351,3 +351,53 @@
   image: null
   words: "Saia godê assimetrica, cós largo com elástico nas costas, mais cumprida na frente e curta nas laterais."
   meant: "Skirt, woven (assumed). Circle. High-low hem: longest at the front (midi, assumed), shorter at the sides and back. Wide waistband. Swapped: elastic only at the back becomes a full elastic waistband. Typos kept as typed."
+
+- id: 34
+  source: draft
+  language: EN
+  family: Top
+  fabric: Woven
+  covers: "Collection: button-up shirt"
+  image: null
+  words: "Classic white button-up shirt: collar on a stand, long sleeves with buttoned cuffs, a bit loose, covering the hips."
+  meant: "Top, woven. Shirt collar on a stand, button front. Long set-in sleeves, buttoned cuffs with a sleeve placket. Loose. Hip length."
+
+- id: 35
+  source: draft
+  language: PT
+  family: Skirt
+  fabric: Woven
+  covers: "Collection: tiered skirt"
+  image: null
+  words: "Saia longa de três camadas franzidas, estilo boho, com elástico na cintura."
+  meant: "Skirt, woven. Three gathered tiers. Maxi (ankle). Elastic waistband."
+
+- id: 36
+  source: draft
+  language: EN
+  family: Top
+  fabric: Woven
+  covers: "Tunic, boat neck, drop shoulder"
+  image: null
+  words: "Loose linen tunic with a boat neck and dropped shoulders, sleeves to the elbow, falling to mid-thigh."
+  meant: "Top, woven, tunic length (mid-thigh). Boat neck. Drop-shoulder sleeves cut in one with the body, elbow length. Loose. Pulls over, no closure."
+
+- id: 37
+  source: draft
+  language: EN
+  family: Pants
+  fabric: Woven
+  covers: "Flare pants, high rise"
+  image: null
+  words: "Flare jeans, high rise, fitted through the hip and thigh."
+  meant: "Pants, woven (denim). Flare from the knee, full length (assumed). High rise. Fitted. Zip fly with a button and belt loops (assumed)."
+
+- id: 38
+  source: draft
+  language: PT
+  family: Top
+  fabric: Woven
+  covers: "Swap: puff sleeves, sweetheart neck"
+  image: null
+  words: "Blusa com manga bufante e decote coração."
+  meant: "Top, woven. Swapped: puff sleeves become short set-in sleeves; sweetheart neck becomes a square neck. Each swap listed as an undoable assumption."
