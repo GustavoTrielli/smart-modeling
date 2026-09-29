@@ -10,9 +10,14 @@
 # tool uses the closest supported one and lists the swap. Garments v1 doesn't
 # make at all expect a plain "not in v1" and no draft.
 #
+# When words and image disagree, the answer key follows what the owner
+# confirmed (the photo won in both cases so far: 03 and 16).
+#
 # Images are NOT in this public repo. They live in the owner's private Google
-# Drive folder "smart-modeling test-set images", under the file name given
-# here, and are downloaded when a test runs.
+# Drive folder (linked from the ticket below), under the file name given here,
+# and are downloaded when a test runs. Six are photos of the owner's own
+# samples, with the label card (garment type, code, piece counts) painted out
+# so the model can't read the answer; the owner keeps the originals.
 #
 # Source: "Collect a test set of real garment descriptions"
 # https://github.com/GustavoTrielli/smart-modeling/issues/18
@@ -45,7 +50,7 @@
   covers: "Owner's brief: knit t-shirt, lurex"
   image: "03-lurex-tee.jpg"  # A fitted lurex jersey t-shirt
   words: "Camiseta de malha com lurex, gola redonda, manga curta, barra simples, caimento justo."
-  meant: "Top, knit (jersey with lurex; a fabric choice, same pattern as plain jersey). Round neck. Short set-in sleeves. Fitted. Plain folded hem. Hip length (assumed)."
+  meant: "Top, knit (lurex rib jersey). Round neck finished with a rib band. Short set-in sleeves. Regular fit (the photo wins over \"justo\" in the words). Plain folded hem. Hip length."
 
 - id: 4
   source: draft
@@ -85,7 +90,7 @@
   covers: "Owner's brief: skirt with fly and pockets; cargo pockets and side panels are later"
   image: "07-cargo-maxi-skirt.jpg"  # A long cargo skirt
   words: "Saia longa, bolso cargo nas laterais, elástico embutido no cós, braguilha centro frente, bolso faca nas laterais, recorte nas laterais, pesponto duplo."
-  meant: "Skirt, woven (twill or denim, assumed). Straight (assumed). Maxi. Waistband with elastic enclosed all the way round (assumed), plus a centre-front zip fly with a button. Slanted front pockets. Swapped: cargo pockets dropped (patch pockets are later); side panel seams dropped (not in v1). Double topstitching is a sewing note, not in the pattern file."
+  meant: "Skirt, woven. A-line flare, maxi (shape from the photo). Straight waistband with a button and a centre-front zip fly. Slanted front pockets. Swapped: the elastic at the sides and back is dropped, keeping the flat front; cargo pockets, panel seams and the lining are dropped (not in v1). Double topstitching is a sewing note, not in the pattern file."
 
 - id: 8
   source: draft
@@ -115,7 +120,7 @@
   covers: "Owner's brief: sleeveless shirt dress with a waist seam; Italian collar is later"
   image: "10-sleeveless-shirt-dress.jpg"  # A sleeveless midi shirt dress with an Italian collar
   words: "Chemise midi com recorte na cintura, pense da cintura em direção ao busto, regata, gola italiana."
-  meant: "Dress, woven, shirt dress with a waist seam. Midi. Button front all the way down (assumed). Waist darts pointing up to the bust. Sleeveless. Swapped: Italian collar becomes a shirt collar on a stand."
+  meant: "Dress, woven (linen), shirt dress with a waist seam. Midi. Sleeveless with a small extended shoulder. Button front all the way down. Waist darts pointing up to the bust. A-line skirt (from the photo). Swapped: the Italian collar (flat, folding into a notched lapel) becomes a shirt collar on a stand; the lining is dropped (not in v1)."
 
 - id: 11
   source: draft
@@ -175,7 +180,7 @@
   covers: "Owner's brief: asymmetric sleeves and side slit, both out of v1"
   image: "16-asymmetric-maxi-dress.jpg"  # A straight maxi dress with one flounced tied sleeve
   words: "Vestido longo, shape reto, decote v, fenda unilateral, manga direita ciganinha com nó, e manga esquerda curta."
-  meant: "Dress, woven (assumed), one-piece. Straight. Maxi. V-neck. Swapped: the one-side slit becomes a back slit; the asymmetric sleeves (right a flounced peasant sleeve tied with a knot, left short) become two short set-in sleeves, since v1 drafts both sides the same."
+  meant: "Dress, woven (printed viscose), one-piece. Straight. Midi (the photo wins over \"longo\" in the words). V-neck. Invisible zip at the back (from the photo). Swapped: the off-centre slit becomes a back slit; the asymmetric sleeves (one flared in a contrast print and tied with a knot, the other short) become two short set-in sleeves, since v1 drafts both sides the same."
 
 - id: 17
   source: draft
@@ -205,7 +210,7 @@
   covers: "Owner's brief: tailored straight pants"
   image: "19-tailored-straight-pants.jpg"  # High-rise straight tailored pants
   words: "calça de alfaiataria boca reta, bolso faca nas laterais, braguilha, cós alto."
-  meant: "Pants, woven, tailored. Straight leg, full length (assumed). High rise, straight waistband. Slanted front pockets. Zip fly with a waistband button. No pleats or belt loops (assumed)."
+  meant: "Pants, woven, tailored. Wide straight leg, full length. High rise, straight waistband with a button. One folded pleat on each front. Slanted front pockets. Zip fly. No belt loops. (Leg width and pleats from the photo.) Contrast topstitching is a sewing note, not in the pattern file."
 
 - id: 20
   source: draft
@@ -245,7 +250,7 @@
   covers: "Owner's brief: chiffon top; gathered high neck is out of v1"
   image: "23-chiffon-high-neck-top.jpg"  # A sleeveless chiffon top with a gathered high neck
   words: "Blusa regata, gola alta com franzido, barra assimétrica em chifon."
-  meant: "Top, woven (chiffon). Sleeveless. Loose (assumed). Swapped: the gathered high neck becomes a plain mock neck. Swapped: the asymmetric hem becomes an even hem, since the high-low hem is agreed for skirts only."
+  meant: "Top, woven (chiffon). Sleeveless. Loose. Swapped: the high stand neck with the body gathered into it becomes a plain mock neck. Swapped: the hem, long on one side and short on the other, becomes an even hem, since v1 drafts both sides the same and the high-low hem runs front to back on skirts only."
 
 - id: 24
   source: draft
@@ -280,12 +285,12 @@
 - id: 27
   source: draft
   language: PT
-  family: Dress
+  family: Set
   fabric: Woven
-  covers: "Hard: image only"
-  image: "27-image-only-dress.jpg"  # A dress you like (you pick it)
+  covers: "Hard: image only; a two-piece set is out of v1"
+  image: "27-image-only-dress.jpg"  # A denim bustier top and flared maxi skirt set
   words: "Quero essa."
-  meant: "Whatever the photo shows, read into supported details; everything else listed as assumptions. You fill this line once you pick the image."
+  meant: "Not made in v1: a two-piece set (a denim bustier top with thin straps, corset seams and a peplum, plus a flared paneled maxi skirt). A design is one garment, so the tool says to make the top and the skirt as two designs, and drafts nothing."
 
 - id: 28
   source: draft
